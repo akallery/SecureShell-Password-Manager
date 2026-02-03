@@ -29,7 +29,7 @@ pip install -e .
 
 ### 2. Run the Application
 ```powershell
-SPM1-Test
+SPM
 ```
 
 ---
