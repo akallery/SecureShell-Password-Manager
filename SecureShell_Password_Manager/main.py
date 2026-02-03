@@ -1,5 +1,5 @@
 import sys
-from team_spm import tui
+from SecureShell_Password_Manager import tui
 
 # ==========================================
 # TEAM MEMBER: TEAM LEAD / COORDINATOR

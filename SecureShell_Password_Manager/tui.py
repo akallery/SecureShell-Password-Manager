@@ -1,4 +1,4 @@
-from team_spm import auth, storage
+from SecureShell_Password_Manager import auth, storage
 import getpass
 import sys
 
