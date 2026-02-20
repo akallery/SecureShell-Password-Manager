@@ -100,3 +100,4 @@ def setup_is_complete():
     # Return True if they do, False if they don't.
     salt_path = Path(APP_DIR+"/security_salt.key")
     hash_path = Path(APP_DIR+"/security_hash.bin")
+    return (salt_path.is_file() and hash_path.is_file())
