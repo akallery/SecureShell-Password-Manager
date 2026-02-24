@@ -76,7 +76,7 @@ def derive_key(master_password, salt):
 def encrypt(data, key):
     # Locks the data.
     # TODO: Use Fernet(key).encrypt()
-    e = Fernet(key.encode())
+    e = Fernet(key.decode())
     # Assumes data is a string
     enc = e.encrypt(data.encode())
     return enc
