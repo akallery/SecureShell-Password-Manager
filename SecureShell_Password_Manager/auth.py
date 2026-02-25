@@ -78,8 +78,8 @@ def encrypt(data, key):
     # TODO: Use Fernet(key).encrypt()
     e = Fernet(key.encode())
     # Assumes data is a string
-    enc = e.encrypt(data.decode())
-    return enc
+    enc = e.encrypt(data.encode())
+    return enc.decode()
 
 
 def decrypt(ciphertext, key):
